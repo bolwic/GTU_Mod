@@ -1,0 +1,133 @@
+"Greater Terran Union"
+={
+	key="Greater Terran Union"
+	ship_prefix="TUS"
+	species={
+		class = "HUM"
+		portrait = "human"
+		name="Human"
+		plural="Humans"
+		adjective="Human"
+		species_bio="The arrival of the alien Tyrum nearly extinguished mankind. After seven years of apocalyptic conflict, the myriad nations of Earth were reduced to a makeshift and desperate military coalition, achieving victory through enormous sacrifice. 
+
+With human civilization on the brink of total collapse, the measures taken to preserve what little remained were brutal and at times, cruel. Amidst famine, poverty, and despair however, there awoke a new sense of purpose and responsibility. When global order was restored, humanity placed their faith in the coalition and this emergency provisional government reorganized itself into the Greater Terran Union. 
+
+The petty conflicts and divisions that for millennia splintered humanity have now been burned away. The swords of man are united; the Tyrum, and the galaxy, will tremble at their might."
+		name_list="HUMANS4" 
+		trait="trait_resilient"
+		trait="trait_conservational"
+	}
+	name="Greater Terran Union"
+	adjective="Terran"
+	authority="auth_oligarchic"
+	government="gov_citizen_stratocracy"
+	advisor_voice_type="voice_pack"
+	planet_name="Earth"
+	planet_class="pc_continental"
+	system_name="Sol"
+	initializer="sol_system_initializer"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="stellarisinvicta"
+			file="gtu.dds"
+		}
+		background={
+			category="backgrounds"
+			file="v.dds"
+		}
+		colors={
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Natasha Fox"
+		portrait="human_female_05"
+		texture=0
+		hair=1
+		clothes=0
+		ruler_title="High Marshal"
+		ruler_title_female="High Marshal"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_hegemonic_imperialists_room"
+	spawn_enabled=yes
+	ethic="ethic_authoritarian"
+	ethic="ethic_xenophobe"
+	ethic="ethic_militarist"
+	civics={
+		"civic_citizen_service"
+		"civic_meritocracy"
+	}
+	flags={ gtu custom_start_screen }
+}
+
+"Tyrum Consciousness"
+={
+	key="Tyrum Consciousness"
+	ship_prefix=""
+	species={
+		class = "ART"
+		portrait = "art17"
+		name="Tyrum"
+		plural="Tyrum"
+		adjective="Tyrum"
+		species_bio="What little is known of the Tyrum comes from the ruined worlds they have left in their wake. They have no obvious culture, ideology, or goal beyond their all-encompassing need to expand. The Tyrum appear to be unable to even grasp concepts like failure and will relentlessly pursue this need wherever it might take them. Their technology is not their own, taken from the so called “Old Ones” although the relationship between the Tyrum and this long dead civilization is not understood. 
+
+Whatever their origins, they exist today as a cancer eating away at the galaxy. "
+		name_list="FUN3" 
+		trait="trait_hive_mind"
+		trait="trait_extremely_adaptive"
+		trait="trait_repugnant"
+		trait="trait_fleeting"
+	}
+	name="Tyrum Consciousness"
+	adjective="Tyrum"
+	authority="auth_hive_mind"
+	government="gov_devouring_swarm"
+	advisor_voice_type="l_hivemind"
+	planet_name="Byrum"
+	planet_class="pc_continental"
+	system_name="Sadarti"
+	graphical_culture="molluscoid_01"
+	city_graphical_culture="fungoid_01"
+	empire_flag={
+		icon={
+			category="domination"
+			file="domination_13.dds"
+		}
+		background={
+			category="backgrounds"
+			file="triangle_split.dds"
+		}
+		colors={
+			"black"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Tyrum"
+		portrait="art17"
+		texture=0
+		hair=0
+		clothes=0
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_fanatic_purifier_room"
+	spawn_enabled=yes
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_hive_devouring_swarm"
+		"civic_hive_strength_of_legions"
+	}
+}
